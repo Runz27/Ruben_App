@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsActivity">
+
+    <EditText
+        android:id="@+id/nomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:ems="12"/>
+
+    <EditText
+        android:id="@+id/pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomer"
+        android:layout_alignLeft="@+id/nomer"
+        android:layout_marginTop="25dp"
+        android:ems="12"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/nomertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nomer"
+        android:layout_alignBottom="@+id/nomer"
+        android:layout_toLeftOf="@+id/nomer"
+        android:text="Phone Number :"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pesan"
+        android:layout_alignLeft="@+id/pesan"
+        android:layout_alignBottom="@+id/pesan"
+        android:text="Message :" />
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pesan"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:text="send"/>
+
+</RelativeLayout>

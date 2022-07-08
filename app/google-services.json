@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589293687588",
+    "project_id": "ruben-app-f68b5",
+    "storage_bucket": "ruben-app-f68b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589293687588:android:0340c651408e3013ddd9b1",
+        "android_client_info": {
+          "package_name": "com.example.ruben_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589293687588-0pfa8ek39m7e8700entv3dqm3o4odrqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYmhkGZJCDEw8rKgt02K7jG_q4DvBXzus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589293687588-0pfa8ek39m7e8700entv3dqm3o4odrqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
